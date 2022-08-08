@@ -11,8 +11,8 @@ const EmployeeItem: React.FC<{ person: Person }> = ({ person }) => {
                 <IonCardSubtitle>{person.country}</IonCardSubtitle>
             </IonCardHeader>
             <IonCardContent>
-                {person.email}<br/>
-                {person.phone}
+                Email: {person.email}<br/>
+                Phone: {person.phone}
             </IonCardContent>
         </IonCard>
     )
